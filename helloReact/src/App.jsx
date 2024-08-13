@@ -1,16 +1,13 @@
 import './App.css'
-import Conteudo from './components/Conteudo';
-import Header from './components/Header';
+import Home from './components/pages/home';
+
 
 function App() {
 console.log("Meu nome é ${}");
   return (
     <>
     <div className='app-container'>
-      <Header />
-      <Conteudo />
-      <Conteudo />
-      <Conteudo />
+      <Home />
     </div>
     </>
   )
