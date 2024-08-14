@@ -2,7 +2,7 @@ import Conteudo from "../Conteudo"
 import Header from "../Header"
 
 
-function home() {
+function Home() {
   return (
     <div>
        <Header />
