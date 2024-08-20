@@ -1,7 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+.container {
+    height: 110px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3bcc4;
+    position: fixed;
+}
 
 .header-container{
-    height: 75px;
+    height: 50%;
     width: 100%;
     background-color: #ef97a4;
     display: flex;
@@ -17,8 +32,42 @@
     justify-content: center;
 }
 
+.pesquisa {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputPesquisa {
+    width: 70%;
+    height: 60%;
+    text-align: center;
+    border-color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.caixa {
+    margin: 1px;
+    width: 3%;
+    height: 65%;
+    border: solid 2px;
+    border-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa i {
+    color: #fff;
+}
+
 .resto {
-    width: 85%;
+    width: 15%;
     height: 100%;
     display: flex;
     align-items: end;
@@ -27,7 +76,7 @@
 
 .icons {
     height: 100%;
-    width: 5%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,11 +92,48 @@
     border-radius: 20px;
 }
 
+.navBar {
+    height: 50%;
+    width: 100%;
+    background-color: #f3bcc4;
+    border-radius: 15px;
+    display: flex;
+}
+
+.caminhos {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnTitulos {
+    height: 70%;
+    width: 50%;
+    border-radius: 20px;
+    border-color: #fff;
+    color: #fff;
+    background-color: #f094a2;
+}
+
+.nomeBtn {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.caminhos i {
+    padding-left: 2px;
+}
+
 .titulo {
+    padding-left: 5px;
     font-size: 17px;
     color: #fff;
-    font-family: "Jomolhari", serif;
-  font-weight: 400;
-  font-style: normal;
-  padding-left: 5px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }

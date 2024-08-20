@@ -1,0 +1,63 @@
+.Body-container {
+    padding-top: 8%;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.bodyCentral {
+    width: 100%;
+    height: 325px;
+    display: flex;
+    background-color: #411717;
+}
+
+.Body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .bodyCentral {
+    width: 80%; /* Defina a largura desejada */
+  }
+  
+  .carousel-container {
+    position: relative;
+    overflow: hidden; /* Esconde as imagens fora da viewport */
+    width: 100%;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Suaviza a transição entre slides */
+    width: 300%; /* A largura total deve ser 100% * número de slides */
+  }
+  
+  .carousel-slide img {
+    width: 100%; /* Cada imagem ocupa 100% da largura visível */
+    height: auto;
+  }
+  
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .indicator.active {
+    background-color: #333;
+  }
+  
