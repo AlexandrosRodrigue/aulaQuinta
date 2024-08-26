@@ -1,0 +1,121 @@
+.container-fila {
+    height: 350px;
+    width: 100%;
+    background-color: #EF9EC8;
+    padding-top: 8%;
+}
+
+.bodyFila {
+    height: 385px;
+    width: 100%;
+    background-color: #EF9EC8;
+}
+
+.tituloFila{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letras {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #fff;
+}
+
+.chamadosUltimo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titiList{
+    display: flex;
+}
+
+.ajustar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 20px;
+}
+
+.senha-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.senha-area {
+    flex: 1;
+    margin-right: 20px;
+    height: 80px;
+}
+
+.senha-area:last-child {
+    margin-right: 0;
+}
+
+.senha-controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:#f3bcc4;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #fff;
+}
+
+.senha-controls button:hover {
+    background-color: #f3bcc4;
+}
+
+#display-senha {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #fff;
+}
+
+.senha-lists {
+    display: flex;
+    justify-content: space-between;
+    height: 190px;
+}
+
+.senha-list {
+    flex: 1;
+    margin-right: 20px;
+    max-height: 100%; 
+    overflow-y: auto; 
+}
+
+.senha-list:last-child {
+    margin-right: 0;
+}
+
+.senha-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.senha-list ul li {
+    background-color: #f3bcc4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

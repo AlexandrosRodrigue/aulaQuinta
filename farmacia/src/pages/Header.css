@@ -60,6 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .caixa i {
@@ -80,6 +81,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .icons i {
@@ -90,6 +92,7 @@
 .imgLogo {
     width: 50px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .navBar {
@@ -115,6 +118,7 @@
     border-color: #fff;
     color: #fff;
     background-color: #f094a2;
+    cursor: pointer;
 }
 
 .nomeBtn {
@@ -136,4 +140,5 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    cursor: pointer;
 }
